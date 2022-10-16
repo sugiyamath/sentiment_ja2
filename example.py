@@ -13,12 +13,13 @@ def tok(x):
     return ' '.join([m.dictionary_form() for m in tokenizer_obj.tokenize(x, mode)]).strip()
 
 texts = [
-    "ティファってチョーかわいいなー",
+    "ティファの技って面白いですね",
     "エアリスが死んで悲しいよ",
     "クラウドって自称ソルジャーとかキモいね",
     "バレットって叫んでばっかでうるさくてムカつく",
     "セフィロスチョー強くてびっくり",
     "タークスとかいう闇組織こわ",]
+
 v = vect.transform(tok(x) for x in texts)
 out = [{"text": x} for x in texts]
 for n, m in models:
