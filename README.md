@@ -1,5 +1,5 @@
 # sentiment_ja2
-日本語テキストを入力すると6種類の感情を予測します。
+日本語テキストを入力すると6種類の感情を予測します。https://qiita.com/sugiyamath2/items/192f8986ae956a53e231
 
 ### 事前準備
 
